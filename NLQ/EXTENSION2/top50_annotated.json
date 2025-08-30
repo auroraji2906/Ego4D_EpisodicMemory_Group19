@@ -1,0 +1,652 @@
+[
+  {
+    "query": "How many drawers did I open?",
+    "query_idx": 6,
+    "video_uid": "805989f6-0696-4de2-ad9b-0f194e0ac48d",
+    "clip_uid": "eaf8d34a-0e20-45d0-a288-569df047461e",
+    "annotation_uid": "450c2f2b-5172-4d6f-91fa-495c7f1fb986",
+    "pred": [
+      453.75,
+      480.0
+    ],
+    "iou": 0.9637688327499627,
+    "answer": "You opened six drawers."
+  },
+  {
+    "query": "What tool did I use on the machine first ",
+    "query_idx": 0,
+    "video_uid": "f681f510-cd33-48e3-bc10-4a8f2a518495",
+    "clip_uid": "b8654118-84a4-4167-83c9-f268cc15f7b2",
+    "annotation_uid": "633b4a69-98f3-4695-889c-28bda6a3a5fa",
+    "pred": [
+      0.0,
+      26.25
+    ],
+    "iou": 0.9561378586882882,
+    "answer": "The tool you used first on the machine was a screwdriver."
+  },
+  {
+    "query": "where did i put my phone?",
+    "query_idx": 0,
+    "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+    "clip_uid": "ab094ea2-9251-4f10-945b-c2ab00c5282e",
+    "annotation_uid": "d2ba7cbc-d85e-43e2-8078-193aa9e99c24",
+    "pred": [
+      0.0,
+      7.5
+    ],
+    "iou": 0.9554093095674177,
+    "answer": "You put your phone on the kitchen counter (or table)."
+  },
+  {
+    "query": "Where did I wash the rice?",
+    "query_idx": 1,
+    "video_uid": "7f4225ed-a076-4530-91cf-f3903c5d7637",
+    "clip_uid": "49931037-b822-4c7b-baf4-4626c1e6b6ea",
+    "annotation_uid": "ac50bac7-c54c-4649-ac60-d70e0180899b",
+    "pred": [
+      41.25,
+      142.5
+    ],
+    "iou": 0.942705041139648,
+    "answer": "You washed the rice in a metal bowl inside a sink."
+  },
+  {
+    "query": "Who was with me when I pulled the lawnmower?",
+    "query_idx": 2,
+    "video_uid": "603ecf93-d2c1-4611-a690-76afd18935c8",
+    "clip_uid": "cf1470f1-9a03-4944-95dd-7f8410bb6cc8",
+    "annotation_uid": "1ba5bf7a-bb9e-4594-b679-da6f7c52a05a",
+    "pred": [
+      112.5,
+      121.875
+    ],
+    "iou": 0.9375,
+    "answer": "A man was with you when you pulled the lawnmower."
+  },
+  {
+    "query": "Where was the egg before I picked it?",
+    "query_idx": 0,
+    "video_uid": "86343e9e-b932-41d3-ad6f-83f2c2fe5486",
+    "clip_uid": "4ba774a8-cd2a-4889-9971-cc91f5c1afd4",
+    "annotation_uid": "c0d973f1-9c48-4268-bc4a-db8062199894",
+    "pred": [
+      11.25,
+      15.0
+    ],
+    "iou": 0.9375,
+    "answer": "The egg was in the refrigerator before you picked it."
+  },
+  {
+    "query": "Where was the plate before I took it?",
+    "query_idx": 4,
+    "video_uid": "b737cd68-4e0d-440a-9813-a6c90080fac5",
+    "clip_uid": "ec4a3ba3-eb00-4aa8-9b41-36043ece98f7",
+    "annotation_uid": "920f36c3-97ee-4609-8d50-26ea0ce18ddc",
+    "pred": [
+      270.0,
+      273.75
+    ],
+    "iou": 0.9273675397384532,
+    "answer": "The plate was in a drawer before you took it."
+  },
+  {
+    "query": "What did I put on the plate?",
+    "query_idx": 7,
+    "video_uid": "8b9b9816-d6eb-4544-818e-9d59e400b80d",
+    "clip_uid": "d2b7d331-4617-45db-a339-80afb7e25741",
+    "annotation_uid": "b6a5f3b0-f35d-4417-95f1-78b0a27b9107",
+    "pred": [
+      390.0,
+      416.25
+    ],
+    "iou": 0.9217845110714888,
+    "answer": "You put pieces of fish or meat on the plate."
+  },
+  {
+    "query": "What did I add to the food?",
+    "query_idx": 6,
+    "video_uid": "224c3de4-9683-462a-8eb4-224773425a7e",
+    "clip_uid": "2276090d-3aab-4a4f-afbe-dcc083604160",
+    "annotation_uid": "260cbcea-d2a7-4c11-b944-4ed391a57606",
+    "pred": [
+      41.25,
+      56.25
+    ],
+    "iou": 0.9181460000000001,
+    "answer": "You added a red sauce to the food."
+  },
+  {
+    "query": "What block of wood did I wipe?",
+    "query_idx": 0,
+    "video_uid": "b884e44c-07d8-426e-8356-1be4905c2675",
+    "clip_uid": "6b9efa86-2580-465b-89b9-877dbd18467c",
+    "annotation_uid": "a9246175-63d8-4587-b72a-fbb09eb92fb7",
+    "pred": [
+      0.0,
+      11.25
+    ],
+    "iou": 0.8999840123629168,
+    "answer": "You wiped a squared block of wood on the floor."
+  },
+  {
+    "query": "what time did i open the fridge?",
+    "query_idx": 1,
+    "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+    "clip_uid": "ab094ea2-9251-4f10-945b-c2ab00c5282e",
+    "annotation_uid": "d2ba7cbc-d85e-43e2-8078-193aa9e99c24",
+    "pred": [
+      15.0,
+      41.25
+    ],
+    "iou": 0.8956518095238094,
+    "answer": "You opened the fridge at second 2 of the clip."
+  },
+  {
+    "query": "How many doughs did i apply egg on?",
+    "query_idx": 1,
+    "video_uid": "3534864b-2289-4aaf-b3ed-10eeeee7acd2",
+    "clip_uid": "bccc3bde-d9b2-4edb-9b1f-a3f42dd07b3e",
+    "annotation_uid": "1947bdf0-b455-4e1b-aefb-f952a834e4a5",
+    "pred": [
+      15.0,
+      56.25
+    ],
+    "iou": 0.8899711627906977,
+    "answer": "You applied egg on ten doughs."
+  },
+  {
+    "query": "where was the machine before I opened the door?",
+    "query_idx": 0,
+    "video_uid": "18a3840b-7463-43c4-9aa9-b1d8e486fa84",
+    "clip_uid": "c0a634a9-3dbe-44f8-9a04-7718d2a2762e",
+    "annotation_uid": "43d0ae0b-1037-4bef-bde2-6e14c9b6bed2",
+    "pred": [
+      0.0,
+      3.75
+    ],
+    "iou": 0.8649361792424543,
+    "answer": "The machine was on the floor near a door before you opened the door."
+  },
+  {
+    "query": "what napkin did I clean my hands with?",
+    "query_idx": 4,
+    "video_uid": "4480f4ee-d218-41bd-8cdf-a7cbe13b61a0",
+    "clip_uid": "45d01186-d09a-408c-a00d-481a2d8d9749",
+    "annotation_uid": "e1c56ec0-9d21-4319-bb33-a774545bdd9e",
+    "pred": [
+      161.25,
+      172.5
+    ],
+    "iou": 0.8631588525784154,
+    "answer": "You cleaned your hands with a blue napkin."
+  },
+  {
+    "query": "Did I slice the okro?",
+    "query_idx": 6,
+    "video_uid": "4ce119de-0f42-4bd1-b387-9e19643fdddc",
+    "clip_uid": "e1c79556-e8af-4e26-bc4c-633100277239",
+    "annotation_uid": "37236893-8514-4b68-9733-4fcea8ec3441",
+    "pred": [
+      337.5,
+      360.0
+    ],
+    "iou": 0.8587184741392438,
+    "answer": "Yes, you sliced the okro."
+  },
+  {
+    "query": "Where did I put the ham?",
+    "query_idx": 4,
+    "video_uid": "1938c632-f575-49dd-8ae0-e48dbb467920",
+    "clip_uid": "7db32b15-9ea6-4a44-a103-cc04471ce4f7",
+    "annotation_uid": "987529da-48f9-41dc-a5f9-10bc3d8df8d6",
+    "pred": [
+      101.25,
+      108.75
+    ],
+    "iou": 0.855856,
+    "answer": "You put the ham in the refrigerator."
+  },
+  {
+    "query": "where did I put the lamp stand?",
+    "query_idx": 2,
+    "video_uid": "2c5a603d-b9e8-45b2-8ff7-f079f6f402fc",
+    "clip_uid": "09fb5412-80b9-49f0-841b-561a331ced64",
+    "annotation_uid": "8d87100c-b9ca-4dc9-96fd-c6307b614a2e",
+    "pred": [
+      157.5,
+      161.25
+    ],
+    "iou": 0.8479682678600806,
+    "answer": "You put the lamp stand on a table."
+  },
+  {
+    "query": "Where was the plier before I picked it?",
+    "query_idx": 6,
+    "video_uid": "180b72fa-2102-414e-a6d5-2806e53f320c",
+    "clip_uid": "5e1a8326-b006-423e-8294-0f9559c8eb18",
+    "annotation_uid": "eeb48fc5-cbbc-4029-a9f4-6b6f87e65686",
+    "pred": [
+      187.5,
+      191.25
+    ],
+    "iou": 0.8478693333333316,
+    "answer": "The plier was in a drawer before you picked it."
+  },
+  {
+    "query": "where was the T-spanner before using it?",
+    "query_idx": 0,
+    "video_uid": "ae2dfec4-6094-4ff3-a404-a8a6ab1e0f02",
+    "clip_uid": "245f3b76-ef46-48d1-b37c-afe73efbf1cf",
+    "annotation_uid": "80f1911e-8cee-4ca2-ad5c-292ed089fc00",
+    "pred": [
+      41.25,
+      86.25
+    ],
+    "iou": 0.8444644444444444,
+    "answer": "The T-spanner was on the table before using it."
+  },
+  {
+    "query": "Where did I put the board after I washed  it?",
+    "query_idx": 3,
+    "video_uid": "12946f28-5f4a-4ba5-8296-c08cbeeca501",
+    "clip_uid": "0ca4506c-962d-4cf1-aa6d-f8222f53dee6",
+    "annotation_uid": "d8c3d311-7798-4d65-87ae-b6eb3385e2cc",
+    "pred": [
+      382.5,
+      416.25
+    ],
+    "iou": 0.842249289659152,
+    "answer": "After you washed the board, you put it in a kitchen shelf."
+  },
+  {
+    "query": "What time did i operate the machine?",
+    "query_idx": 5,
+    "video_uid": "c864505c-9d49-4da4-bf7e-254b4c348c03",
+    "clip_uid": "96453857-2454-418f-bbd6-3f5f8b3eadbd",
+    "annotation_uid": "a23e1d01-7ac4-47f1-ac6e-3c66ebe78447",
+    "pred": [
+      180.0,
+      187.5
+    ],
+    "iou": 0.8392127280865225,
+    "answer": "You operated the machine at second 1."
+  },
+  {
+    "query": "what did I put in the fry pan?",
+    "query_idx": 7,
+    "video_uid": "4480f4ee-d218-41bd-8cdf-a7cbe13b61a0",
+    "clip_uid": "45d01186-d09a-408c-a00d-481a2d8d9749",
+    "annotation_uid": "e1c56ec0-9d21-4319-bb33-a774545bdd9e",
+    "pred": [
+      202.5,
+      210.0
+    ],
+    "iou": 0.8333518522633843,
+    "answer": "You put oil in the fry pan."
+  },
+  {
+    "query": "Where is the red bicycle",
+    "query_idx": 0,
+    "video_uid": "2876b375-e848-412c-8a6f-0664cbab6a33",
+    "clip_uid": "6dc84153-ab59-42c1-a091-7bca4d9cd542",
+    "annotation_uid": "6e65f7b7-5a67-4412-93ff-85267d1b00d0",
+    "pred": [
+      26.25,
+      33.75
+    ],
+    "iou": 0.8280693333333332,
+    "answer": "The red bicycle was parked near the entrance of a building."
+  },
+  {
+    "query": "What food did I slice?",
+    "query_idx": 1,
+    "video_uid": "7f70ae0a-d097-4dda-9afa-318188dfce2d",
+    "clip_uid": "b2e24b02-4d9e-436e-8557-fe02b75c9f5f",
+    "annotation_uid": "6f088645-1e64-417f-807f-fcd3c69c6a4d",
+    "pred": [
+      168.75,
+      180.0
+    ],
+    "iou": 0.8264141047217256,
+    "answer": "You sliced a cucumber."
+  },
+  {
+    "query": "where was the chopsticks before I picked it up",
+    "query_idx": 5,
+    "video_uid": "66a0900b-069d-48bf-9071-f4e659f8a9d0",
+    "clip_uid": "cd7ccaeb-9d60-4aab-ab83-ea223004bad9",
+    "annotation_uid": "aa303ded-59e2-46bc-81ed-a46d0a0413dd",
+    "pred": [
+      292.5,
+      296.25
+    ],
+    "iou": 0.8132774667712865,
+    "answer": "The chopsticks were on the counter before you picked it up."
+  },
+  {
+    "query": "What vegetable did I cut",
+    "query_idx": 7,
+    "video_uid": "056db3f1-f957-46c8-b16b-c8fce22e78f9",
+    "clip_uid": "9a13aee2-0dca-49f8-968f-8f53c5a62963",
+    "annotation_uid": "f9cd0c31-4e28-411e-b498-19db3e544030",
+    "pred": [
+      75.0,
+      90.0
+    ],
+    "iou": 0.811044917830336,
+    "answer": "You cut a cabbage."
+  },
+  {
+    "query": "What did I put in the Oven?",
+    "query_idx": 7,
+    "video_uid": "1938c632-f575-49dd-8ae0-e48dbb467920",
+    "clip_uid": "7db32b15-9ea6-4a44-a103-cc04471ce4f7",
+    "annotation_uid": "987529da-48f9-41dc-a5f9-10bc3d8df8d6",
+    "pred": [
+      423.75,
+      427.5
+    ],
+    "iou": 0.805002666666663,
+    "answer": "You put a bowl of food in the oven."
+  },
+  {
+    "query": "what did i pour in the pan?",
+    "query_idx": 1,
+    "video_uid": "245cde61-d0a0-49c8-840d-e484b5f71a04",
+    "clip_uid": "12babcc1-a848-4882-869e-b6e8cc963c2c",
+    "annotation_uid": "8244d4d1-06b6-40d5-bd4b-db3f3690aa9d",
+    "pred": [
+      11.25,
+      18.75
+    ],
+    "iou": 0.7929466891937574,
+    "answer": "You poured oil (or a liquid) in the pan."
+  },
+  {
+    "query": "What kitchen tool did I cut the springer onions with?",
+    "query_idx": 0,
+    "video_uid": "a4728450-c05c-4d51-91e4-348f571d74bc",
+    "clip_uid": "3231822a-fc8b-4207-b0b8-5cbb1344cb2f",
+    "annotation_uid": "a89efc9c-f6bb-472a-a8c6-bdae52f82638",
+    "pred": [
+      7.5,
+      18.75
+    ],
+    "iou": 0.7590293333333336,
+    "answer": "You cut the springer onion with a knife."
+  },
+  {
+    "query": "How many white mugs did I see in the kitchen cabinet?",
+    "query_idx": 3,
+    "video_uid": "30b9ff64-51c8-4481-ba6a-733ea2060aef",
+    "clip_uid": "1731de62-b1b9-4b84-bd55-412cd67e9b3c",
+    "annotation_uid": "2c246ae4-5b7c-4978-be65-08da6ae5e2f7",
+    "pred": [
+      37.5,
+      41.25
+    ],
+    "iou": 0.7527807405190257,
+    "answer": "You saw three white mugs in the kitchen cabinet."
+  },
+  {
+    "query": "what did I pick from the cabinet?",
+    "query_idx": 1,
+    "video_uid": "50b2fa2f-9d39-4b9c-8e3c-4a4ef0669956",
+    "clip_uid": "38a0d090-c67f-4197-b2a6-65cb56c356c5",
+    "annotation_uid": "c9c2e7ba-730f-4705-ae72-5ac36c14536f",
+    "pred": [
+      213.75,
+      217.5
+    ],
+    "iou": 0.7501065151251475,
+    "answer": "You picked a white plate from the cabinet."
+  },
+  {
+    "query": "Where was the spoon before I picked it?",
+    "query_idx": 0,
+    "video_uid": "8b9b9816-d6eb-4544-818e-9d59e400b80d",
+    "clip_uid": "d2b7d331-4617-45db-a339-80afb7e25741",
+    "annotation_uid": "b6a5f3b0-f35d-4417-95f1-78b0a27b9107",
+    "pred": [
+      0.0,
+      3.75
+    ],
+    "iou": 0.7426708145020324,
+    "answer": "The spoon was on the counter before you picked it."
+  },
+  {
+    "query": "How much oil did I put in the pot?",
+    "query_idx": 2,
+    "video_uid": "12946f28-5f4a-4ba5-8296-c08cbeeca501",
+    "clip_uid": "0ca4506c-962d-4cf1-aa6d-f8222f53dee6",
+    "annotation_uid": "ba3e1c7b-2b99-4403-8dd0-3aa603ab8546",
+    "pred": [
+      202.5,
+      206.25
+    ],
+    "iou": 0.7245994910151043,
+    "answer": "You put in the pot a drizzle of oil."
+  },
+  {
+    "query": "where did l saw brown boots",
+    "query_idx": 0,
+    "video_uid": "42c08776-8832-4d37-8844-3ce89e405c62",
+    "clip_uid": "f15dbeca-63e7-43b5-b1a6-7896bc28b08c",
+    "annotation_uid": "08a04c87-bb88-4cc0-9f4f-8760931d3996",
+    "pred": [
+      37.5,
+      45.0
+    ],
+    "iou": 0.7165746584805179,
+    "answer": "You saw brown boots on the floor, in a store."
+  },
+  {
+    "query": "Where did I put the bucket?",
+    "query_idx": 5,
+    "video_uid": "0c6ab491-c45e-4cbc-b6b2-a709cc856a9c",
+    "clip_uid": "7c34ddc3-9bd7-4266-b6e8-173b7392e49c",
+    "annotation_uid": "55bc7494-95ef-4e47-87db-9529b298c1ef",
+    "pred": [
+      311.25,
+      315.0
+    ],
+    "iou": 0.7148966259478929,
+    "answer": "You put the bucket on the floor."
+  },
+  {
+    "query": "How many plates did I pick?",
+    "query_idx": 1,
+    "video_uid": "224c3de4-9683-462a-8eb4-224773425a7e",
+    "clip_uid": "2276090d-3aab-4a4f-afbe-dcc083604160",
+    "annotation_uid": "260cbcea-d2a7-4c11-b944-4ed391a57606",
+    "pred": [
+      300.0,
+      303.75
+    ],
+    "iou": 0.7120186666666541,
+    "answer": "You picked one plate."
+  },
+  {
+    "query": "What vegetable did I slice?",
+    "query_idx": 6,
+    "video_uid": "413fe086-1745-4573-b75b-e7d26ff72df9",
+    "clip_uid": "75d3fc52-3776-47d4-b7fd-8074d30b06d1",
+    "annotation_uid": "93891b44-c00f-43d9-885b-92fdce39128c",
+    "pred": [
+      345.0,
+      352.5
+    ],
+    "iou": 0.7066666666666682,
+    "answer": "You sliced a spring onion."
+  },
+  {
+    "query": "How many stainless bowls did I pick?",
+    "query_idx": 0,
+    "video_uid": "50b2fa2f-9d39-4b9c-8e3c-4a4ef0669956",
+    "clip_uid": "38a0d090-c67f-4197-b2a6-65cb56c356c5",
+    "annotation_uid": "1c36caf5-2892-4644-9c02-361ea3cb93bb",
+    "pred": [
+      3.75,
+      7.5
+    ],
+    "iou": 0.7063783136206693,
+    "answer": "You pick two stainless bowls."
+  },
+  {
+    "query": "where did i see the sieve before i picked it up",
+    "query_idx": 2,
+    "video_uid": "7f70ae0a-d097-4dda-9afa-318188dfce2d",
+    "clip_uid": "b2e24b02-4d9e-436e-8557-fe02b75c9f5f",
+    "annotation_uid": "d3ddd7fd-8a3b-4201-b612-d9f78d9742ab",
+    "pred": [
+      191.25,
+      195.0
+    ],
+    "iou": 0.6964183256004277,
+    "answer": "You saw the sieve in the sink before you picked it up."
+  },
+  {
+    "query": "Did I leave the main door open?",
+    "query_idx": 5,
+    "video_uid": "2d442f12-3595-4b2d-b8c5-583b65c0c49f",
+    "clip_uid": "f32cb53d-4a80-499c-bb32-cefef3abe205",
+    "annotation_uid": "c46d08ce-3b1d-4071-9c86-1d37ecf7ef13",
+    "pred": [
+      11.25,
+      18.75
+    ],
+    "iou": 0.679503934314061,
+    "answer": "Yes, you leaved the main door open."
+  },
+  {
+    "query": "Where did I put the white cup?",
+    "query_idx": 2,
+    "video_uid": "30b9ff64-51c8-4481-ba6a-733ea2060aef",
+    "clip_uid": "1731de62-b1b9-4b84-bd55-412cd67e9b3c",
+    "annotation_uid": "058aa522-a4a2-4330-89c8-4d6091621de9",
+    "pred": [
+      37.5,
+      41.25
+    ],
+    "iou": 0.679096585185346,
+    "answer": "You put the white cup on the table."
+  },
+  {
+    "query": "Where did I put the plate?",
+    "query_idx": 0,
+    "video_uid": "1938c632-f575-49dd-8ae0-e48dbb467920",
+    "clip_uid": "7db32b15-9ea6-4a44-a103-cc04471ce4f7",
+    "annotation_uid": "987529da-48f9-41dc-a5f9-10bc3d8df8d6",
+    "pred": [
+      15.0,
+      18.75
+    ],
+    "iou": 0.6784662789718288,
+    "answer": "You put the plate on the sink."
+  },
+  {
+    "query": "did I wipe the kitchen counter",
+    "query_idx": 2,
+    "video_uid": "ff6d3d52-dda5-46dd-8515-b9b772933030",
+    "clip_uid": "efc190a8-45de-4ce5-b480-b722403bcec1",
+    "annotation_uid": "fd276cad-7e93-453c-b232-13f86202465e",
+    "pred": [
+      52.5,
+      67.5
+    ],
+    "iou": 0.677546211708487,
+    "answer": "Yes, you wiped the kitchen counter."
+  },
+  {
+    "query": "Where was the seasoning before I picked it?",
+    "query_idx": 2,
+    "video_uid": "530dd2a8-462c-450b-9f38-1dfff28f139e",
+    "clip_uid": "616f5047-e92f-477f-b7a3-7ccb6b43d682",
+    "annotation_uid": "8b089945-94b6-41d2-9e4c-a1afccdb2ee4",
+    "pred": [
+      97.5,
+      101.25
+    ],
+    "iou": 0.6773226666666687,
+    "answer": "The seasoning was on the counter before you picked it."
+  },
+  {
+    "query": "Where was the plate before I picked it up?",
+    "query_idx": 2,
+    "video_uid": "50b2fa2f-9d39-4b9c-8e3c-4a4ef0669956",
+    "clip_uid": "38a0d090-c67f-4197-b2a6-65cb56c356c5",
+    "annotation_uid": "1c36caf5-2892-4644-9c02-361ea3cb93bb",
+    "pred": [
+      210.0,
+      217.5
+    ],
+    "iou": 0.6656191608148697,
+    "answer": "The plate was in a drawer before you picked it up."
+  },
+  {
+    "query": "How many pies were in the brown plate?",
+    "query_idx": 7,
+    "video_uid": "ff6d3d52-dda5-46dd-8515-b9b772933030",
+    "clip_uid": "efc190a8-45de-4ce5-b480-b722403bcec1",
+    "annotation_uid": "e8b1352a-6e0c-4f86-8a52-afe93743abb6",
+    "pred": [
+      52.5,
+      480.0
+    ],
+    "iou": 0.630528800613014,
+    "answer": "here were eight pies in the brown plate."
+  },
+  {
+    "query": "What did I pour in the frying pan?",
+    "query_idx": 2,
+    "video_uid": "d88d4e54-5e5e-4c08-9a87-80958f9e4ec1",
+    "clip_uid": "0edc229a-eb4a-473c-b66b-550c19eecd42",
+    "annotation_uid": "96996e4f-02ed-4086-9712-377833ae29b2",
+    "pred": [
+      266.25,
+      273.75
+    ],
+    "iou": 0.6264000000000048,
+    "answer": "You pour oil in the frying pan."
+  },
+  {
+    "query": "How much soap did I apply on the sponge?",
+    "query_idx": 3,
+    "video_uid": "224c3de4-9683-462a-8eb4-224773425a7e",
+    "clip_uid": "2276090d-3aab-4a4f-afbe-dcc083604160",
+    "annotation_uid": "260cbcea-d2a7-4c11-b944-4ed391a57606",
+    "pred": [
+      371.25,
+      375.0
+    ],
+    "iou": 0.6243013333333238,
+    "answer": "You applied a drop of soap on the sponge."
+  },
+  {
+    "query": "What napkin did I hang?",
+    "query_idx": 7,
+    "video_uid": "c864505c-9d49-4da4-bf7e-254b4c348c03",
+    "clip_uid": "96453857-2454-418f-bbd6-3f5f8b3eadbd",
+    "annotation_uid": "bad8cc0e-a998-4c05-872d-347d5eb580c8",
+    "pred": [
+      165.0,
+      172.5
+    ],
+    "iou": 0.6216759762858336,
+    "answer": "You hung a white napkin."
+  },
+  {
+    "query": "What color is the pair of slippers I walked towards?",
+    "query_idx": 2,
+    "video_uid": "a850112c-68e3-45d7-9fc0-9ada21e970a4",
+    "clip_uid": "a3aea4be-3594-4372-98d7-cfbb9cc06170",
+    "annotation_uid": "a657d6dc-c63c-436a-9a68-ece04c4b4e99",
+    "pred": [
+      408.75,
+      412.5
+    ],
+    "iou": 0.6156407739614528,
+    "answer": "The pair of slippers you walked towards is grey (or black)."
+  }
+]
