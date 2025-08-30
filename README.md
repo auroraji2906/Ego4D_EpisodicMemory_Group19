@@ -1,5 +1,5 @@
 # Ego4D_EpisodicMemory_Group19
-"""
+
 This repository contains code for the **Natural Language Queries (NLQ)** task on egocentric videos from the Ego4D dataset, including extensions for qualitative evaluation using Video-LLaVA and modified variants of VSLNet and VSLBase.
 
 
