@@ -162,6 +162,6 @@ Following are all you need to successfully execute the notebooks:
 
 - All notebooks require access to the downloaded features to run correctly.
 
-- You must have access to the Ego4D dataset (with secret key) to download clips. Sign the Ego4D License at [Ego4D License](https://ego4ddataset.com/ego4d-license/) if needed.
+- You must have access to the Ego4D dataset (with secret key) to download clips. Sign [Ego4D License](https://ego4ddataset.com/ego4d-license/) if needed.
 
 - Recommended environment: Colab or a machine with GPU (T4/A100) for training and inference.
