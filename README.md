@@ -100,7 +100,7 @@ Following are all you need to successfully execute the notebooks:
     ```
     
     
-- **Note:** for these notebooks you need to have access to the dataset to download the clips, so please make sure to have secret key, otherwise sign the Ego4D License at "[ego4ddataset.com](https://ego4ddataset.com)"
+- **Note:** for these notebooks you need to have access to the dataset to download the clips, so please make sure to have secret key, otherwise sign the Ego4D License at [ego4ddataset.com](https://ego4ddataset.com)
 
 - **Execution:**
   
