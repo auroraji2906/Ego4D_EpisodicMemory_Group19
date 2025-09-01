@@ -5,7 +5,12 @@ This repository contains code for the **Natural Language Queries (NLQ)** task on
 ## Repository Structure
 
 - `STEP4_TEMPORAL_LOCALIZATION/`  
-  Notebooks for Step 4 of the project: training and evaluating VSLBase, VSLNet, and a variant of VSLNet with non-shared encoders for text and video, using EgoVLP or Omnivore features.
+  Notebooks for Step 4 of the project: training and evaluating VSLBase, VSLNet, and a variant of VSLNet with non-shared encoders for text and video, using EgoVLP or Omnivore features. The four notebooks included are:  
+  - `VSLBase_EgoVLP.ipynb` – Train/evaluate VSLBase using EgoVLP features  
+  - `VSLBase_Omnivore.ipynb` – Train/evaluate VSLBase using Omnivore features  
+  - `VSLNet_EgoVLP_and_modified.ipynb` – Train/evaluate VSLNet and its variant using EgoVLP features  
+  - `VSLNet_Omnivore_and_modified.ipynb` – Train/evaluate VSLNet and its variant using Omnivore features
+
 
 - `STEP5_EXTENSION_LLaVA/`  
   Notebooks for Step 5 (qualitative extension):  
