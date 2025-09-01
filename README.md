@@ -34,7 +34,7 @@ Following are all you need to successfully execute the notebooks:
   - We use `NLQ/VSLNet/main.py` for standard VSLNet  
   - We use `NLQ/VSLNet/main_VSLNet_modified.py` for the variant with separate encoders
 
-    in the training cell:
+    in the training cell (here we provide the code block for main.py)
     
     ```bash
     %%bash
