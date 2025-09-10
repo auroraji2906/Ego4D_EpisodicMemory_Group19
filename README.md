@@ -21,7 +21,7 @@ This repository contains code for the **Natural Language Queries (NLQ)** task on
   Contains all the necessary files to execute the notebooks of Temporal Localization Models in the directory STEP4_TEMPORAL_LOCALIZATION/.
 
 - `EXTENSION2/`
-  Contains all the necessary files to execute the notebook of the Extension in the directory STEP5_EXTENSION_LLaVA/.
+  Contains all the necessary files to execute the notebooks of the Extension in the directory STEP5_EXTENSION_LLaVA/.
 
 - `runs/`
   Contains TensorBoard logs for the training runs of VSLBase and VSLNet models. In particular: 
