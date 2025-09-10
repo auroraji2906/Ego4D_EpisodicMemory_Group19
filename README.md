@@ -18,7 +18,10 @@ This repository contains code for the **Natural Language Queries (NLQ)** task on
   - `Some_qualitative_results.ipynb` – Contains a subset of qualitative results, showing examples with both correct and incorrect Video-LLaVA answers compared to manually annotated ground truth.
 
 - `NLQ/`  
-  Contains all the necessary files to execute the notebooks.
+  Contains all the necessary files to execute the notebooks of Temporal Localization Models in the directory STEP4_TEMPORAL_LOCALIZATION/.
+
+- `EXTENSION2/`
+  Contains all the necessary files to execute the notebook of the Extension in the directory STEP5_EXTENSION_LLaVA/.
 
 ## Notebooks
 
@@ -75,7 +78,7 @@ Following are all you need to successfully execute the notebooks:
 - **Note:** make sure EgoVLP or Omnivore features are downloaded and placed in `/content/ego4d_data/` or you can download them from ego4d dataset using the secret key to access the dataset.
 
 ### 3. `Some_qualitative_results.ipynb` and `Extension2.ipynb`
-- **Dependencies:** all files in `NLQ/EXTENSION2/`  
+- **Dependencies:** all files in `EXTENSION2/`  
   - `best_prediction.json`: best checkpoint from VSLNet on EgoVLP  
   - `compute_scores.py`: computes ROUGE, BLEU, and METEOR scores  
   - `extract_clips.py`: extracts video clips using ffmpeg  
@@ -95,7 +98,7 @@ Following are all you need to successfully execute the notebooks:
         26.25
       ],
       "iou": 0.9561378586882882,
-      "answer": "The tool you used first on the machine was a screwdriver."
+      "answer": "The tool you used first on the machine was an electric screwdriver."
     },
     ```
     
@@ -110,15 +113,15 @@ Following are all you need to successfully execute the notebooks:
   
     ```bash
     %%bash
-    python /content/NLQ/EXTENSION2/llava.py \
+    python /content/EXTENSION2/llava.py \
         --clips_dir "/content/ego4d_data/v1/clips_top50" \
-        --queries_json "/content/NLQ/EXTENSION2/top50_queries.json" \
-        --output "/content/NLQ/EXTENSION2/answers_video_llava.json"
+        --queries_json "/content/EXTENSION2/top50_queries.json" \
+        --output "/content/EXTENSION2/answers_video_llava.json"
     
     %%bash
-    python /content/NLQ/EXTENSION2/compute_scores.py \
-        --llava "/content/NLQ/EXTENSION2/answers_video_llava.json" \
-        --gt "/content/NLQ/EXTENSION2/top50_annotated.json"
+    python /content/EXTENSION2/compute_scores.py \
+        --llava "/content/EXTENSION2/answers_video_llava.json" \
+        --gt "/content/EXTENSION2/top50_annotated.json"
     ```
   
   **Outputs:**
@@ -146,11 +149,11 @@ Following are all you need to successfully execute the notebooks:
     {
       "query": "What tool did I use on the machine first",
       "llava_answer": "The tool you used first on the machine was a screwdriver.",
-      "gt_answer": "The tool you used first on the machine was a screwdriver.",
+      "gt_answer": "The tool you used first on the machine was an electric screwdriver.",
       "clip_path": "/content/ego4d_data/v1/clips_top50/f681f510-cd33-48e3-bc10-4a8f2a518495_clip_01.mp4",
-      "bleu": 1.0,
-      "rouge-L": 1.0,
-      "meteor": 0.9997
+      "bleu": 0.7077,
+      "rouge-L": 0.8696,
+      "meteor": 0.8502
     },
     ```
   
